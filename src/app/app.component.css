@@ -1,0 +1,132 @@
+/*pengaturan main content*/
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content {
+  min-height: calc(100vh - 60px);
+  padding-bottom: 150px;
+}
+
+
+
+
+
+/*Button Header Kiri*/
+.custom-button {
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: "Playfair Display"; 
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+/*Button Header kanan*/
+.my-button {
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Playfair Display"; /* Ganti dengan jenis font yang diinginkan */
+  font-weight: ;
+}
+
+.my-button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+.right-content {
+  float: right; /* Meletakkan elemen di sebelah kanan */
+}
+
+
+
+
+
+
+
+
+  /* footer*/
+  .footer-content {
+    margin: 0;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    border-top: 1px solid #ccc;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+  }
+  
+  .footer-left {
+
+    align-items: center;
+    text-align: left;
+  }
+  
+  .logo {
+    margin-top: 50px;
+  }
+
+  .footer-logo {
+    height: 40px; /* Adjust as needed */
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  .footer-right {
+    margin-left: auto;
+  }
+
+  .footer-right-page {
+    text-align: right;
+  }
+
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Optional: adjust gap between buttons */
+  }
+  
+  .button-grid button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fffff;
+    cursor: pointer;
+  }
+  
+  .button-grid button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  
+
+
+

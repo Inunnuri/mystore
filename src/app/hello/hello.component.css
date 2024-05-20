@@ -1,0 +1,240 @@
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content {
+  min-height: calc(100vh - 60px);
+  padding-bottom: 30px;
+}
+
+
+
+
+/*Button Footer Kiri*/
+.custom-button {
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Playfair Display"; 
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+
+
+
+
+/*Button footer kanan*/
+.my-button {
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    padding: 20px ;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Playfair Display"; /* Ganti dengan jenis font yang diinginkan */
+    font-weight: ;
+  }
+  
+.my-button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+/*gambar sampul*/
+
+.header-image {
+  position: relative;
+  display: block; /* Membuat gambar menjadi elemen blok */
+  width: 100%; /* Mengisi lebar frame */
+  height: auto; /* Menyesuaikan tinggi gambar */
+  /*opacity: 0.7;/* Menambahkan transparansi cerah*/
+}
+
+.darkened-image {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%); /* Mengurangi kecerahan gambar menjadi 50% */
+}
+
+
+
+
+
+
+/*isi konten gambar sampul*/
+.content {
+  position: absolute;
+  top: 50%; /* Menempatkan konten di tengah vertikal */
+  left: 50%; /* Menempatkan konten di tengah horizontal */
+  transform: translate(-50%, -50%); /* Menggeser konten ke tengah */
+  text-align: center; /* Mengatur teks ke tengah */
+  color: white; /* Warna teks di atas gambar */
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column; /* Susun elemen dalam satu kolom */
+  align-items: center; /* Pusatkan elemen secara horizontal */
+}
+
+.centered-content h1 {
+  margin-top: -100px ; /* agar h1 lebih keatas pakai negatif */
+  font-size: 80px;
+  font-family: "Playfair Display"; /* Ganti dengan jenis font yang diinginkan */
+  font-weight: bold; /* Membuat teks judul tebal */
+}
+
+.content-text {
+  margin-top: 20px; /* Atur jarak atas antara teks dan tombol */
+  font-size: 20px;
+}
+
+.mybutton {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px; /* Atur jarak antara tombol dan teks */
+  font-family: "Playfair Display"; /* Ganti dengan jenis font yang diinginkan */
+  font-weight: bold;
+}
+
+.mybutton:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+
+/*produk*/
+.image-frame {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Atur jarak antar gambar */
+}
+
+.image-frame img {
+  width: calc(33.33% - 10px); /* Atur lebar gambar */
+  margin-bottom: 200px; /* Atur jarak bawah antar gambar */
+  /*border:solid #000000;*/
+}
+
+.image-container {
+  width: calc(33.33% - 10px); /* Atur lebar gambar */
+  margin-bottom: 50px; /* Atur jarak bawah antar gambar */
+  text-align: left; /* Pusatkan teks */
+}
+
+.image-container img {
+  width: 100%; /* Pastikan gambar memenuhi lebar kontainer */
+  height: auto; /* Biarkan tinggi gambar disesuaikan secara proporsional */
+  /*border: 2px solid #000000;*/
+  margin-bottom: 10px;
+}
+
+.image-container  h3 {
+  margin-top: 10px; /* Atur jarak antara gambar dan teks */
+}
+
+.price-button {
+  background-color: #FFFFFF;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.price-button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+/*produk bagian2*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.top-right, .bottom-right {
+  display: flex; /* Menggunakan flexbox lagi untuk menyusun gambar di kanan atas dan kanan bawah */
+  flex-direction: column; /* Agar gambar di kanan atas dan kanan bawah disusun secara vertikal */
+  margin-top: 10px;
+}
+
+.left {
+  flex: 1;
+  flex-basis: 20%;
+  flex-direction: column; /* Membuat konten dalam kolom */
+  margin-bottom: 100px;
+}
+
+
+.right {
+  padding-left: 100px; /* Spasi antara gambar di sebelah kanan */
+  flex: 1;
+  flex-direction: column; /* Membuat konten dalam kolom */
+}
+
+.item {
+  padding: 20px; /* Spasi antara gambar */
+  flex: 1;
+}
+
+.item img {
+  width: 100%; /* Mengisi lebar gambar */
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+.content-text-right {
+  margin-top: -30px; 
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.content-text-left {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+ 
+
+
+
+
+
+
